@@ -1,5 +1,5 @@
 # Define the URL of the text file containing the list of files
-$textFileUrl = "http://yourserver.com/files.txt"
+$textFileUrl = "https://raw.githubusercontent.com/danielpmorris87/beamng/main/beammp.txt"
 
 # Define the local directory within the AppData folder for the current user
 $localDirectory = Join-Path -Path $env:APPDATA -ChildPath "Roaming\BeamMP-Launcher\Resources"
